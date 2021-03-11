@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/e916d12e-aa42-4d95-9ef2-25e8540b8632/resourceGroups/marta-joint-ventures/providers/Microsoft.Web/sites/marta-joint-ventures",
+    "appService.deploySubpath": "."
+}

@@ -1,0 +1,240 @@
+.color-nav {
+  background-color: #005A8B;
+  padding-bottom: 4%;
+}
+
+.displayErrors input:invalid {
+  border-color: red;
+}
+
+.mainLogo{
+  width: 200px;
+  height: 80px;
+}
+
+.menu-ul{
+        list-style-type: none;
+        margin: 0;
+        font-weight: bold;
+        width: 100%;
+        margin-left: 2%;
+        text-align: center;
+
+}
+
+.menu-ul li{
+    display: inline-block;
+    margin-left: 2%;
+    font-style: normal;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.menu-ul-header{
+    margin: 0;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.0588235em;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.menu-ul-header li{
+display: inline-block;
+margin-left: 100px;
+font-style: normal;
+font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.centerLabel{
+    font-size: 48px;
+    color: white;
+    font-style: normal;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.Logo{
+  background-image: url(./images/Jan-2006.jpg) ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 2%;
+}
+
+.HeaderMainLogo.container{
+  background-image: url(./images/Cover.jpg) ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.dropdown-toggle.btn.btn-secondary{
+  color: white;
+  background-color: transparent;
+}
+
+.footerColor{
+  background-color: blue;
+  max-width: 100%;
+}
+
+.HomeMainSecondContainer.container{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.player-wrapper {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.react-player {
+    padding-top: 56.25%;
+    position: relative;
+  }
+  
+  .react-player > div {
+    position: absolute;
+  }
+
+.progress-label{
+    padding-top: 5%;
+    padding-bottom: 1%;
+    font-size: 25px;
+    color: grey;
+    font-style: normal;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.aboutUs-label{
+  padding-top: 5%;
+  padding-bottom: 2%;
+  font-size: 25px;
+  color: grey;
+  font-style: normal;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.privacy-label{
+  padding-top: 2%;
+  padding-bottom: 1%;
+  font-size: 22px;
+  color: grey;
+  font-style: normal;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.privacy-words{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 18px;
+  color: grey;
+  font-style: normal;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.privacy-tight{
+  padding-top: 0%;
+  padding-bottom: 0%;
+  font-size: 18px;
+  color: grey;
+  font-style: normal;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.calendar-padding{
+  padding-bottom: 3%;
+}
+
+.partner-logos{
+  padding-bottom: 2%;
+}
+
+.headerLogo{
+    padding-top: 3%;
+    padding-left: 1%;
+}
+
+
+.HeaderBackground{
+    background-image: url(./images/logo.png);
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    padding: 70px;
+    padding-top: 100px;
+    padding-left: 100px;
+    word-wrap: normal;
+}
+
+  .Login form {
+    float: right;
+    color: white;
+    padding-right: 2%;
+    padding-top: 5%;
+  }
+
+  .liveViewLogin form {
+    float: center;
+    color: black;
+    padding-right: 2%;
+    padding-top: 30%;
+  }
+
+  .partnerLogo{
+    width: 220px;
+    height: 220px;
+  }
+
+  .gooleMapSize{
+    padding-top: 5%;
+    padding-bottom: 50%;
+  }
+
+  .progressImages{
+    width: 500px;
+    height: 300px;
+  }
+
+  .progressPadding{
+    padding-bottom: 3%;
+  }
+
+  .siteImages{
+    width: 350px;
+    height: 260px;
+  }
+  
+  .carousel-fade .carousel-item {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    transition: opacity .75s ease-in-out;
+  }
+  .carousel-fade .carousel-item.active {
+    opacity: 1;
+  }
+
+  .FooterCss.container{
+    color: white;
+    background-color: #005A8B;
+    max-width: 100%;
+    bottom: 0;
+    position:absolute;
+  }
+
+  .progressListOfImages{
+    padding-bottom: 4%;
+  }
+
+  .updatesPadding{
+    padding-bottom: 2%;
+  }
+
+
+

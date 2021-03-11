@@ -275,6 +275,7 @@ export default class Calendars extends Component{
         //window.location.reload()
       }
     }
+    //test push to master
     if(this.props.match.params.projectId === 'collegePark'){
       let path = require('../images/MARTAAerial2.jpg');
       this.setState({ desc1 : '10/27/20- 30% DESIGN COMPLETE',

@@ -356,20 +356,20 @@ export default class Calendars extends Component{
               </Navbar.Collapse>
             </Navbar>
             <Row style={{ paddingTop: '2%', paddingLeft: '19%', paddingRight: '17%'}}>
-            <Col style={{ textAlign: 'center', fontFamily: 'Lato,sans-serif', fontSize: '25px', color: 'grey', paddingTop: '2%'}}><strong>PRECONSTRUCTION SCHEDULE</strong></Col>
+            <Col style={{ textAlign: 'center', fontFamily: 'Lato,sans-serif', fontSize: '25px', color: '#005A8B', paddingTop: '2%'}}><strong>PRECONSTRUCTION SCHEDULE</strong></Col>
           </Row> 
           <Row style={{ paddingLeft: '19%', paddingRight: '17%'}}>
-            <Col style={{ textAlign: 'center', fontFamily: 'Lato,sans-serif', fontSize: '25px', color: 'grey'}}><p style={{ textAlign: 'center', fontWeight: 'bold', fontFamily: 'Lato,sans-serif'}}><strong>{this.state.locationName}</strong></p></Col>
+            <Col style={{ textAlign: 'center', fontFamily: 'Lato,sans-serif', fontSize: '25px', color: '#005A8B'}}><p style={{ textAlign: 'center', fontWeight: 'bold', fontFamily: 'Lato,sans-serif'}}><strong>{this.state.locationName}</strong></p></Col>
           </Row>
           <Row style={{ paddingLeft: '19%', paddingRight: '17%'}}>
-            <Col><p style={{ textAlign: 'center', fontWeight: 'bold', fontFamily: 'Lato,sans-serif'}}>KEY DATES</p></Col></Row>
+            <Col><p style={{ textAlign: 'center', fontWeight: 'bold', fontFamily: 'Lato,sans-serif', color: '#005A8B'}}>KEY DATES</p></Col></Row>
           <Row style={{ paddingTop: '2%', paddingLeft: '37%', paddingRight: '17%', paddingBottom: '11%'}}>
             <Col style={{ textAlign: 'center', fontFamily: 'Lato,sans-serif'}}>
-            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif'}}>{this.state.desc1}</p>
-            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif'}}>{this.state.desc2}</p>
-            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif'}}>{this.state.desc3}</p>
-            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif'}}>{this.state.desc4}</p>
-            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif'}}>{this.state.desc5}</p>
+            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif', fontSize: '14px', color: '#005A8B'}}>{this.state.desc1}</p>
+            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif', fontSize: '14px', color: '#005A8B'}}>{this.state.desc2}</p>
+            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif', fontSize: '14px', color: '#005A8B'}}>{this.state.desc3}</p>
+            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif', fontSize: '14px', color: '#005A8B'}}>{this.state.desc4}</p>
+            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif', fontSize: '14px', color: '#005A8B'}}>{this.state.desc5}</p>
             </Col>
           </Row> </> :
           <>
@@ -387,20 +387,20 @@ export default class Calendars extends Component{
             </Navbar.Collapse>
           </Navbar>
           <Row style={{ paddingTop: '2%', paddingLeft: '2%', paddingRight: '2%'}}>
-            <Col style={{ textAlign: 'center', fontFamily: 'Lato,sans-serif', fontSize: '25px', color: 'grey', paddingTop: '2%'}}><strong>PRECONSTRUCTION SCHEDULE</strong></Col>
+            <Col style={{ textAlign: 'center', fontFamily: 'Lato,sans-serif', fontSize: '25px', color: '#005A8B', paddingTop: '2%'}}><strong>PRECONSTRUCTION SCHEDULE</strong></Col>
           </Row> 
           <Row style={{ paddingLeft: '2%', paddingRight: '2%'}}>
-            <Col style={{ textAlign: 'center', fontFamily: 'Lato,sans-serif', fontSize: '25px', color: 'grey'}}><p style={{ textAlign: 'center', fontWeight: 'bold', fontFamily: 'Lato,sans-serif'}}><strong>{this.state.locationName}</strong></p></Col>
+            <Col style={{ textAlign: 'center', fontFamily: 'Lato,sans-serif', fontSize: '25px', color: '#005A8B'}}><p style={{ textAlign: 'center', fontWeight: 'bold', fontFamily: 'Lato,sans-serif'}}><strong>{this.state.locationName}</strong></p></Col>
           </Row>
           <Row style={{ paddingLeft: '2%', paddingRight: '2%'}}>
-            <Col><p style={{ textAlign: 'center', fontWeight: 'bold', fontFamily: 'Lato,sans-serif'}}>KEY DATES</p></Col></Row>
+            <Col><p style={{ textAlign: 'center', fontWeight: 'bold', fontFamily: 'Lato,sans-serif', color: '#005A8B'}}>KEY DATES</p></Col></Row>
           <Row style={{ paddingTop: '2%', paddingLeft: '2%', paddingRight: '2%'}}>
             <Col>
-            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif'}}>{this.state.desc1}</p>
-            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif'}}>{this.state.desc2}</p>
-            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif'}}>{this.state.desc3}</p>
-            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif'}}>{this.state.desc4}</p>
-            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif'}}>{this.state.desc5}</p>
+            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif', fontSize: '14px', color: '#005A8B'}}>{this.state.desc1}</p>
+            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif', fontSize: '14px', color: '#005A8B'}}>{this.state.desc2}</p>
+            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif', fontSize: '14px', color: '#005A8B'}}>{this.state.desc3}</p>
+            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif', fontSize: '14px', color: '#005A8B'}}>{this.state.desc4}</p>
+            <p style={{ textAlign: 'left', fontFamily: 'Lato,sans-serif', fontSize: '14px', color: '#005A8B'}}>{this.state.desc5}</p>
             </Col>
           </Row> </>         
           }

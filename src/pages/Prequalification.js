@@ -141,13 +141,13 @@ export default class Prequalification extends Component{
           checkScreenSize ? 
               <Row style={{ paddingTop: '2%', paddingLeft: '19%', paddingRight: '17%'}}>
               <Col style={{ textAlign: 'center', paddingTop: '1%', color: '#005A8B'}}>
-              <p style={{ color: 'red', fontFamily: 'Lato,sans-serif'}}>Under the “Add / Edit Trades” field below, please be sure to select MARTA under 01 – GENERAL REQUIREMENTS in order to be considered for MARTA work. You may also select the trades in which your company performs work.</p>
+              <p style={{ color: 'red', fontSize: '14px' , fontFamily: 'Lato,sans-serif'}}>Under the “Add / Edit Trades” field below, please be sure to select MARTA under 01 – GENERAL REQUIREMENTS in order to be considered for MARTA work. You may also select the trades in which your company performs work.</p>
               <p><iframe title="web" style={{ width: '100%', height: '950px'}} src="//projects.isqft.com/10589822/embeddedform" frameBorder="0"></iframe></p>
               </Col>
               </Row>
               : <Row style={{ paddingTop: '2%', paddingLeft: '2%', paddingRight: '2%'}}>
               <Col style={{ textAlign: 'center', paddingTop: '1%', color: '#005A8B'}}>
-                <p style={{ color: 'red', fontFamily: 'Lato,sans-serif'}}>Under the “Add / Edit Trades” field below, please be sure to select MARTA under 01 – GENERAL REQUIREMENTS in order to be considered for MARTA work. You may also select the trades in which your company performs work.</p>
+                <p style={{ color: 'red', fontSize: '14px', fontFamily: 'Lato,sans-serif'}}>Under the “Add / Edit Trades” field below, please be sure to select MARTA under 01 – GENERAL REQUIREMENTS in order to be considered for MARTA work. You may also select the trades in which your company performs work.</p>
                 <p><iframe title="mobile" style={{ width: '100%', height: '950px'}} src="//projects.isqft.com/10589822/embeddedform" frameBorder="0"></iframe></p>
                 </Col>
               </Row>

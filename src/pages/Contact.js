@@ -205,7 +205,7 @@ export default class Contact extends Component{
             <Row style={{ paddingTop: '2%', paddingLeft: '19%', paddingRight: '17%'}}>
               <Col style={{ textAlign: 'left', paddingTop: '1%', color: '#005A8B'}}>
                 <h2 style={{ textAlign: 'center', paddingTop: '1%', color: '#005A8B', fontFamily: 'Lato,sans-serif', fontWeight: 300}}>Get In Touch 
-                </h2> <h2 style={{textAlign: 'center', fontSize: '15px', color: 'red'}}>All fields are required</h2>
+                </h2> <h2 style={{textAlign: 'center', fontSize: '14px', color: 'red', fontFamily: 'Lato,sans-serif'}}>All fields are required</h2>
                 <br />
               </Col>
             </Row>
@@ -288,7 +288,7 @@ export default class Contact extends Component{
             <Row style={{ paddingTop: '2%', paddingLeft: '2%', paddingRight: '2%'}}>
               <Col style={{ textAlign: 'left', paddingTop: '1%', color: '#005A8B'}}>
                 <h2 style={{ textAlign: 'center', paddingTop: '1%', color: '#005A8B', fontFamily: 'Lato,sans-serif', fontWeight: 300}}>Get In Touch 
-                </h2> <h2 style={{textAlign: 'center', fontSize: '15px', color: 'red'}}>All fields are required</h2>
+                </h2> <h2 style={{textAlign: 'center', fontSize: '14px', color: 'red', fontFamily: 'Lato,sans-serif'}}>All fields are required</h2>
                 <br />
               </Col>
             </Row>

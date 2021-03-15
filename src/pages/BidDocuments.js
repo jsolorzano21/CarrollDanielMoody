@@ -262,17 +262,17 @@ export default class Calendars extends Component{
             {event ? 
             <>
             <Row style={{ paddingLeft: '19%', paddingRight: '17%'}}>
-              <Col className='aboutUs-label' style={{ textAlign: 'center', textDecoration: 'underline'}}><p>Please click the link(s) below for access to the project documents</p></Col>
+              <Col className='aboutUs-label' style={{ textAlign: 'center', color: '#005A8B', fontSize: '25px', fontFamily: 'Lato,sans-serif'}}><p>Please click the link(s) below for access to the project documents</p></Col>
             </Row>
-            <Row style={{ paddingLeft: '19%', paddingRight: '17%', paddingBottom: '20%'}}>
-              <Col className='aboutUs-label' style={{ textAlign: 'center', textDecoration: 'underline'}}><a href={this.state.desc2} target="_blank" rel="noopener noreferrer">{this.state.desc1}</a></Col>
+            <Row style={{ paddingLeft: '19%', paddingRight: '17%', paddingBottom: '21%'}}>
+              <Col className='aboutUs-label' style={{ textAlign: 'center', textDecoration: 'underline', color: '#005A8B', fontSize: '14px', fontFamily: 'Lato,sans-serif'}}><a href={this.state.desc2} target="_blank" rel="noopener noreferrer">{this.state.desc1}</a></Col>
             </Row></>
           : <>
             <Row style={{ paddingLeft: '19%', paddingRight: '17%'}}>
-              <Col className='aboutUs-label' style={{ textAlign: 'center', textDecoration: 'underline'}}><p>Please click the link(s) below for access to the project documents</p></Col>
+              <Col className='aboutUs-label' style={{ textAlign: 'center', color: '#005A8B', fontSize: '25px', fontFamily: 'Lato,sans-serif'}}><p>Please click the link(s) below for access to the project documents</p></Col>
             </Row>
-            <Row style={{ paddingLeft: '19%', paddingRight: '17%', paddingBottom: '20%'}}>
-              <Col className='aboutUs-label' style={{ textAlign: 'center', textDecoration: 'underline'}}><a href={this.state.desc2} target="_blank" rel="noopener noreferrer">{this.state.desc1}</a></Col>
+            <Row style={{ paddingLeft: '19%', paddingRight: '17%', paddingBottom: '21%'}}>
+              <Col className='aboutUs-label' style={{ textAlign: 'center', textDecoration: 'underline', color: '#005A8B', fontSize: '14px', fontFamily: 'Lato,sans-serif'}}><a href={this.state.desc2} target="_blank" rel="noopener noreferrer">{this.state.desc1}</a></Col>
             </Row></>}
           </>
           :
